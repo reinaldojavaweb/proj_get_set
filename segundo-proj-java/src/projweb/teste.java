@@ -114,6 +114,24 @@ public class teste {
 		System.out.println("Quarta Disciplina: "+aluno2.getDisciplina4());
 		System.out.println("Média: "+aluno2.getNotaMedia());
 		System.out.println("Resultado: "+(aluno2.getAlunoAprovado()?"APROVADO":"reprovado"));
+		JOptionPane.showMessageDialog(null, "Nome Aluno2: "+aluno2.getNome());
+		JOptionPane.showMessageDialog(null, "Idade: "+aluno2.getIdade());
+		JOptionPane.showMessageDialog(null, "Data de Nascimento: "+aluno2.getDataNascimento());
+		JOptionPane.showMessageDialog(null, "Mãe: "+aluno2.getMae());
+		JOptionPane.showMessageDialog(null, "Pai: "+aluno2.getPai());
+		JOptionPane.showMessageDialog(null, "RG: "+aluno2.getRg());
+		JOptionPane.showMessageDialog(null, "CPF: "+aluno2.getCpf());
+		JOptionPane.showMessageDialog(null, "Endereço: "+aluno2.getEndereco());
+		JOptionPane.showMessageDialog(null, "Primeira Disciplina: "+aluno2.getDisciplina1());
+		JOptionPane.showMessageDialog(null, "Primeira Nota:"+aluno2.getN1());
+		JOptionPane.showMessageDialog(null,"Segunda Disciplina: " +aluno2.getDisciplina2());
+		JOptionPane.showMessageDialog(null, "Segunda Nota: "+aluno2.getN2());
+		JOptionPane.showMessageDialog(null, "Terceira Disciplina: "+aluno2.getDisciplina3());
+		JOptionPane.showMessageDialog(null, "Terceira Nota: "+aluno2.getN3());
+		JOptionPane.showMessageDialog(null, "Quata Disciplina: "+aluno2.getDisciplina4());
+		JOptionPane.showMessageDialog(null,"Quarta Nota: "+aluno2.getN4());
+		JOptionPane.showMessageDialog(null,"media: " +aluno2.getNotaMedia());
+		JOptionPane.showMessageDialog(null,"Resultado: "+(aluno2.getAlunoAprovado()?"APROVADO":"REPROVADO"));
 		
 		
 		
